@@ -5,8 +5,8 @@
   </head>
   <body>
     <header>
-      <h1>Cade's first webpage</h1>
-      <img src="Images/252.png" alt="BYU is cool" />
+      <div><img src="Images/252.png" alt="BYU is cool" /></div>
+      <div>This is a site to search Github for interesting projects.</div>
       <nav>
         <ul>
           <li><a href="/Index.html">Home</a></li>
@@ -18,11 +18,24 @@
     <section>
       <p>
         In this <span>sample site</span>, we'll show a list of
-        <a href="http://github.com" target="blank">github</a> projects and the
-        data about those projects.
+        <a href="http://github.com" target="blank">github</a> projects
+        <span>and the data</span> about those <strong>projects</strong>.
       </p>
-      <form action="http://">
-        <input type="text" id="search" name="search" />
+      <form action="http://wilder.azurewebsites.net/echo" method="POST">
+        <label for="searchPhrase">Search Phrase:</label>
+        <input type="text" id="searchPhrase" name="searchPhrase" /><br />
+        <input type="checkbox" name="useStars" id="useStars" checked="true" />
+        <label for="useStars">Use Stars?</label><br />
+        <label for="langChoice">Languages:</label>
+        <select name="langChoice" id="langChoice">
+          <option>All</option>
+          <option>JavaScript</option>
+          <option>C#</option>
+          <option>Java</option>
+          <option>Ruby</option>
+        </select>
+        <br />
+        <input type="submit" value="search" />
       </form>
     </section>
     <footer>&copy; 2018 Cade LLC</footer>
