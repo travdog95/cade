@@ -6,16 +6,17 @@
     <link rel="stylesheet" href="css/site.css" /> 
   </head>
   <body>
+    <div class="container">
     <header> 
       <div>
-        <img src="images/logo.gif" alt="Github Hub" width="180" height="50" />
+        <img src="images/logo.gif" alt="Github Hub" width="180" height="50" class="bordered-image"/>
       </div>
       <div>This is a site to search Github for interesting projects.</div>
       <nav>
         <ul>
           <li><a href="/index.html">Home</a></li>
           <li><a href="/index.html">Contact</a></li>
-          <li><a href="/index.html">About</a></li>
+          <li><a href="/index.html">About</a></li> 
         </ul>
       </nav>
     </header>
@@ -25,7 +26,7 @@
         <a href="http://github.com" target="blank">github</a> projects
         <span>and the data</span> about those <strong>projects</strong>.
       </p>
-      <form action="http://wilder.azurewebsites.net/echo" method="POST">
+      <form action="http://wilder.azurewebsites.net/echo" method="POST" class="bordered-image simple-form">
         <label for="searchPhrase">Search Phrase:</label>
         <input type="text" id="searchPhrase" name="searchPhrase" /><br />
         <input type="checkbox" name="useStars" id="useStars" checked="true" />
@@ -43,5 +44,6 @@
       </form>
     </section>
     <footer>&copy; 2018 Cade LLC</footer>
+  </div>
   </body>
 </html>
