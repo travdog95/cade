@@ -20,33 +20,10 @@ html, body {
   padding: 0;
   margin: 0; 
 }
+
 header nav {
-float: right;
-margin-right: 5px;
-}
-
-<<<<<<< HEAD
-header nav li {
-display: inline;
-font-size: 12px;
-}
-
-a {
-color: green;
-=======
-  body {
-    font-family: Segoe UI, Arial, Helvetica, sans-serif;
-    font-size: 14px;
-    background-color: darkgreen;
-  }
-
-  html, body {
-    padding: 0;
-    margin: 0; 
-}
-header nav {
-float: right;
-margin-right: 5px;
+  float: right;
+  margin-right: 5px;
 }
 
 header nav li {
@@ -56,7 +33,6 @@ header nav li {
 
 a {
   color: green;
->>>>>>> fcae82118261fad1aa10dd3d89890dd68aae6676
 }
 
 #main {
@@ -68,13 +44,6 @@ a {
 }
 
 #results {
-padding: 2px;
-width: 300px;
-display: inline-block;
-vertical-align: top;
-}
-
-#results {
   padding: 2px;
   width: 300px;
   display: inline-block;
@@ -82,41 +51,29 @@ vertical-align: top;
 }
 
 .simple-form {
-<<<<<<< HEAD
-padding: 2px;
-width: 300px;
-display: inline-block;
-vertical-align: top;
-=======
   padding: 2px;
   width: 300px;
   display: inline-block;
   vertical-align: top;
->>>>>>> fcae82118261fad1aa10dd3d89890dd68aae6676
 }
 
 .simple-form label {
-font-weight: bold;
+  font-weight: bold;
 }
 
 .simple-form input[type=text],
 .simple-form select,
 .simple-form input[type=password],
 .simple-form textarea {
-width: 150px;
+  width: 150px;
 }
 
 .simple-form input[type=submit] {
-background-color: green;
-color: white;
-border-radius: 15px;
-padding: 3px;
-margin-top: 5px;
-}
-
-.bordered-image {
-border: solid 1px #444;
-border-radius: 5px;
+  background-color: green;
+  color: white;
+  border-radius: 15px;
+  padding: 3px;
+  margin-top: 5px;
 }
 
 .bordered-image {
@@ -125,8 +82,8 @@ border-radius: 5px;
 }
 
 .container {
-width: 989px;
-margin: 0 auto;
-background-color: white;
-padding :5px;
+  width: 989px;
+  margin: 0 auto;
+  background-color: white;
+  padding :5px;
 }
